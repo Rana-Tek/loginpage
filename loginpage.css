@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://buildawesomewebsites.com/wp-content/uploads/2019/08/rodion-kutsaev-pVoEPpLw818-unsplash-scaled-300x300-c-default.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+form {
+  background-image: linear-gradient(0deg, #0c100b 0%, #0f2c2f 100%);
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+label {
+  color: aliceblue;
+  display: inline-block;
+  width: 120px;
+}
+
+.genel input {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  border: 3px solid rgba(120, 255, 255, 0.7);
+}
+
+.genel {
+  margin-bottom: 20px;
+}
+
+.buton {
+  text-align: center;
+}
+.buton input {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 3px solid rgba(120, 255, 255, 0.7);
+  margin-top: 10px;
+}
+
+.submit {
+  margin-right: 10px;
+  margin-left: 120px;
+}
+.reset {
+  margin-left: 5px;
+}
+
+.buton input:hover {
+  background-color: hsl(242, 100%, 45%);
+  color: azure;
+  font-weight: 700;
+  cursor: pointer;
+}
